@@ -7,24 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>evoL</title>
     <link href="/dist/output.css" rel="stylesheet">
-    <!-- "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch" -->
+
 
 </head>
 
 <body class="dark:bg-slate-800 dark:text-slate-200">
-    <!-- <h1>Belajar Tailwind</h1>
+    <section class="h-screen">
+        <div class="container mx-auto">
+
+
+            <!-- <h1>Belajar Tailwind</h1>
     <section class="mb-10">
         <h2>Spacing</h2>
         <div class="m-13">Margin</div>
         <div class="py-8">padding</div>
     </section> -->
 
-    <!-- <section class="mb-10">
+            <!-- <section class="mb-10">
         <h2>Sizing</h2>
         <div class="w-32 h-32">kotak</div>
     </section> -->
 
-    <!-- <section class="mb-96 font-inter max-w-3xl mx-auto">
+            <!-- <section class="mb-96 font-inter max-w-3xl mx-auto">
         <h2 class="mb-2 text-4xl font-bold">Belajar mengenal typography pada tailwind</h2>
         <by class="mb-4 text-lg text-gray-500">Bakpia, 20 Desember 1999</by>
         <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut officia maxime veritatis vero
@@ -45,7 +49,7 @@
             voluptatibus.</p>
     </section> -->
 
-    <!-- <div class="mx-w-xl h-96 bg-[#bada55] mx-auto mt-[42px] overflow-y-scroll bg-scroll"
+            <!-- <div class="mx-w-xl h-96 bg-[#bada55] mx-auto mt-[42px] overflow-y-scroll bg-scroll"
         style="background-image: url('https://source.unsplash.com/1000x600?computer');">
         <p class="p-5 text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi rem modi labore, commodi,
             nulla
@@ -65,67 +69,69 @@
             consequuntur fugiat modi ipsum iure ipsam nemo quas, perspiciatis voluptates eius assumenda ratione error
             sapiente? Odio, ex ut quisquam enim eum iure!</p>
     </div> -->
-    <!-- <div class="mt-32 max-w-xl mx-auto h-96 bg-slate-300 bg-contain bg-no-repeat bg-center rounded-2xl shadow-xl shadow-slate-300 overflow-hidden border-8 flex "
+            <!-- <div class="mt-32 max-w-xl mx-auto h-96 bg-slate-300 bg-contain bg-no-repeat bg-center rounded-2xl shadow-xl shadow-slate-300 overflow-hidden border-8 flex "
         style="background-image: url(./dist/img/lp-2.jpg);">
         <div class="w-[200px] h-[200px] bg-white/30 m-auto backdrop-blur-md rounded-full"></div> -->
-    <!-- <div class="w-full h-full bg-blue-300 mix-blend-overlay"></div> -->
-    <!-- </div> -->
+            <!-- <div class="w-full h-full bg-blue-300 mix-blend-overlay"></div> -->
+            <!-- </div> -->
 
-    <!-- <hr class="my-20" /> -->
-    <div class="mt-12">
-        <div class="flex justify-center">
-            <span class="text-sm text-slate-500 mr-2">Light</span>
-            <input type="checkbox" id="toggle" class="hidden" />
-            <label for="toggle">
-                <div class="w-9 h-5 bg-slate-500 rounded-full flex items-center p-1 cursor-pointer">
-                    <div class="w-4 h-4 bg-white rounded-full toggle-circle"></div>
+            <!-- <hr class="my-20" /> -->
+            <div class="mt-12">
+                <div class="flex justify-center">
+                    <span class="text-sm text-slate-500 mr-2">Light</span>
+                    <input type="checkbox" id="toggle" class="hidden" />
+                    <label for="toggle">
+                        <div class="w-9 h-5 bg-slate-500 rounded-full flex items-center p-1 cursor-pointer">
+                            <div class="w-4 h-4 bg-white rounded-full toggle-circle"></div>
+                        </div>
+                    </label>
+                    <span class="text-sm text-slate-500 ml-2">Dark</span>
                 </div>
-            </label>
-            <span class="text-sm text-slate-500 ml-2">Dark</span>
-        </div>
-    </div>
-
-    <!-- <button
-        class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold font-inter block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-sky-300 dark:bg-slate-300 dark:text-slate-800 dark:hover:text-slate-900 dark:hover:bg-slate-100">Simpan</button> -->
-
-    <div class="mx-4">
-        <div
-            class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md hover:bg-sky-500 group font-inter dark:hover:bg-slate-300">
-            <h5
-                class="font-serif uppercase text-slate-700 text-md tracking-widest mb-3 group-hover:text-white dark:group-hover:text-slate-800">
-                peace in as inner spiring
-            </h5>
-            <p
-                class="text-slate-600 group-hover:text-white selection:bg-lime-300 selection:text-slate-900 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-3 font-semibold dark:group-hover:text-slate-800">
-                Dalam hal perasaan
-                <blockquote class="dark:group-hover:text-blue-600">"Orang yang mengabaikan kesalahanmu bukanlah orang
-                    idiot, ia hanya tidak ingin kehilanganmu"
-                </blockquote>
-            </p>
-        </div>
-    </div>
-
-    <div class="max-w-[280px] mx-auto">
-        <div class="mt-12 mx-4 h-40 bg-slate-100 bg-contain hover:bg-slate-200 dark:hover:bg-slate-50 bg-no-repeat bg-right-bottom rounded-3xl shadow-xl overflow-hidden shadow-slate-300 flex group"
-            style="background-image: url(./dist/img/minion2.png);">
-            <div class="w-[200px] h-[200px] m-auto flex justify-center pt-13 space-x-2 mr-16">
-                <div
-                    class="text-3xl text-pink-600 dark:group-hover:text-red-500 animate-goyang group-hover:animate-pulse">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" viewBox="0 0 20 20" fill="currentColor">
-                        <path fillRule="evenodd"
-                            d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-                            clipRule="evenodd" />
-                    </svg></div>
-                <p
-                    class="text-2xl font-semibold text-slate-600 group-hover:text-slate-900 items-center mt-2 group-hover:animate-bounce dark:group-hover:text-slate-900">
-                    Bakpia</p>
             </div>
 
-        </div>
+            <!-- <button
+        class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold font-inter block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-sky-300 dark:bg-slate-300 dark:text-slate-800 dark:hover:text-slate-900 dark:hover:bg-slate-100">Simpan</button> -->
 
-    </div>
+            <div class="mx-4">
+                <div
+                    class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md hover:bg-sky-500 group font-inter dark:hover:bg-slate-300">
+                    <h5
+                        class="font-serif uppercase text-slate-700 text-md tracking-widest mb-3 group-hover:text-white dark:group-hover:text-slate-800">
+                        peace in as inner spiring
+                    </h5>
+                    <p
+                        class="text-slate-600 group-hover:text-white selection:bg-lime-300 selection:text-slate-900 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-3 font-semibold dark:group-hover:text-slate-800">
+                        Dalam hal perasaan
+                        <blockquote class="dark:group-hover:text-blue-600">"Orang yang mengabaikan kesalahanmu bukanlah
+                            orang
+                            idiot, ia hanya tidak ingin kehilanganmu"
+                        </blockquote>
+                    </p>
+                </div>
+            </div>
 
-    <!-- <div class="max-w-lg border border-slate-200 rounded-xl mx-auto shadow-md font-inter p-5">
+            <div class="max-w-[280px] mx-auto">
+                <div class="mt-12 mx-4 h-40 bg-slate-100 bg-contain hover:bg-slate-200 dark:hover:bg-slate-50 bg-no-repeat bg-right-bottom rounded-3xl shadow-xl overflow-hidden shadow-slate-300 flex group"
+                    style="background-image: url(./dist/img/minion2.png);">
+                    <div class="w-[200px] h-[200px] m-auto flex justify-center pt-13 space-x-2 mr-16">
+                        <div
+                            class="text-3xl text-pink-600 dark:group-hover:text-red-500 animate-goyang group-hover:animate-pulse">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fillRule="evenodd"
+                                    d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                                    clipRule="evenodd" />
+                            </svg></div>
+                        <p
+                            class="text-2xl font-semibold text-slate-600 group-hover:text-slate-900 items-center mt-2 group-hover:animate-bounce dark:group-hover:text-slate-900">
+                            Bakpia</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- <div class="max-w-lg border border-slate-200 rounded-xl mx-auto shadow-md font-inter p-5">
         <form action="">
             <label for="email">
                 <span
@@ -137,8 +143,8 @@
         </form>
     </div> -->
 
-    <!-- <hr class="my-20" /> -->
-    <!-- 
+            <!-- <hr class="my-20" /> -->
+            <!-- 
     <div
         class="w-40 h-40 bg-sky-500 mx-auto rounded-lg shadow-lg hover:scale-125 hover:rotate-45 transition hover:bg-pink-500 origin-top-left">
     </div>
@@ -153,6 +159,8 @@
     </div>
 
     <div class="mb-96"></div> -->
+        </div>
+    </section>
 
     <script>
         const checkbox = document.querySelector('#toggle');
