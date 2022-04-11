@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>evoL</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <!-- "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch" -->
+
+</head>
+
+<body>
+    <h1>Belajar Tailwind</h1>
+    <section class="mb-10">
+        <h2>Spacing</h2>
+        <div class="m-13">Margin</div>
+        <div class="py-8">padding</div>
+    </section>
+
+    <section class="mb-10">
+        <h2>Sizing</h2>
+        <div class="w-32 h-32">kotak</div>
+    </section>
+
+    <section class="mb-96 font-inter max-w-3xl mx-auto">
+        <h2 class="mb-2 text-4xl font-bold">Belajar mengenal typography pada tailwind</h2>
+        <by class="mb-4 text-lg text-gray-500">Bakpia, 20 Desember 1999</by>
+        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut officia maxime veritatis vero
+            accusamus
+            reiciendis, in excepturi blanditiis natus quae, eveniet consequuntur aperiam voluptatum saepe nisi nam
+            pariatur hic. Dolorum facere sint beatae culpa in aperiam dignissimos recusandae expedita, iste perspiciatis
+            nobis cumque porro ad illum molestias laudantium tempora totam.</p>
+        <blockquote class="mb-4 italic font-thin text-xl">"Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Provident
+            iusto hic
+            fuga sed
+            dicta
+            optio voluptates
+            odit iure mollitia ducimus?"</blockquote>
+        <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore et adipisci qui nisi numquam
+            quod repellat
+            veritatis eveniet magni provident ipsa sapiente possimus repellendus autem ullam, in, laborum accusamus
+            voluptatibus.</p>
+    </section>
+
+    <div class="mx-w-xl h-96 bg-[#bada55] mx-auto mt-[42px] overflow-y-scroll bg-scroll"
+        style="background-image: url('https://source.unsplash.com/1000x600?computer');">
+        <p class="p-5 text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi rem modi labore, commodi,
+            nulla
+            eligendi optio
+            atque, sapiente consequuntur ullam accusamus cum laborum illo consectetur adipisci incidunt nesciunt
+            perspiciatis beatae quae officiis velit sit sed mollitia. Architecto facilis ipsam possimus, et
+            exercitationem deserunt incidunt, neque nostrum repellendus amet voluptas impedit, atque aperiam quis quo
+            harum quas modi soluta! Omnis, labore delectus! Voluptates iusto nulla suscipit repellendus, natus odio quod
+            asperiores assumenda quo libero reprehenderit, sunt odit amet, quisquam accusamus et magnam dolorem.
+            Repellendus deserunt earum dolore minus, in facere, sed voluptatum porro aliquam magnam similique vel non
+            reiciendis quas est incidunt dignissimos iste! Assumenda at perspiciatis provident non odit perferendis,
+            earum nulla illum exercitationem tempora quidem eveniet vitae rem maiores dolorem veniam consequatur. Rerum
+            magni ratione, quis tempora, accusamus enim officiis, nisi molestias voluptatibus sit maxime voluptates fuga
+            incidunt ducimus repellat quaerat distinctio quos quidem aperiam laboriosam possimus minima harum! Soluta
+            ipsum pariatur odit illo minima quidem libero accusantium dolorem quis aspernatur quae provident quo eius
+            laboriosam architecto, eum esse. Repellat dignissimos itaque facere quidem reiciendis autem consectetur,
+            consequuntur fugiat modi ipsum iure ipsam nemo quas, perspiciatis voluptates eius assumenda ratione error
+            sapiente? Odio, ex ut quisquam enim eum iure!</p>
+    </div>
+    <div class="mt-32 max-w-xl mx-auto h-96 bg-slate-300 bg-contain bg-no-repeat bg-center rounded-2xl shadow-xl shadow-slate-300 overflow-hidden border-8 flex "
+        style="background-image: url(./dist/img/lp-2.jpg);">
+        <div class="w-[200px] h-[200px] bg-white/30 m-auto backdrop-blur-md rounded-full"></div>
+        <!-- <div class="w-full h-full bg-blue-300 mix-blend-overlay"></div> -->
+    </div>
+
+    <hr class="my-20" />
+
+    <button
+        class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold font-inter block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-sky-300">Simpan</button>
+
+    <div
+        class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md font-inter hover:bg-sky-500 group font-serif">
+        <h5 class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white">My Card</h5>
+        <p
+            class="text-slate-600 group-hover:text-white selection:bg-lime-300 selection:text-slate-900 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-3">
+            Lorem ipsum
+            dolor, sit amet consectetur adipisicing elit.
+            Eaque, inventore, illum sit
+            consequatur minus at,
+            delectus qui quos doloremque sapiente labore porro voluptas? Deserunt, quidem. Id libero quasi
+            exercitationem reiciendis.</p>
+    </div>
+
+    <div class="max-w-lg border border-slate-200 rounded-xl mx-auto shadow-md font-inter p-5">
+        <form action="">
+            <label for="email">
+                <span
+                    class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-pink-500 after:ml-0.5">Email</span>
+                <input type="email" id="email" placeholder="masukkan email..."
+                    class="px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid:text-pink-500 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer" />
+                <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">Email tidak valid</p>
+            </label>
+        </form>
+    </div>
+
+    <div class="mb-96"></div>
+</body>
+
+</html>
