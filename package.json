@@ -16,6 +16,8 @@
   "bugs": {
     "url": "https://github.com/farhandardiri/evol/issues"
   },
-  "homepage": "https://github.com/farhandardiri/evol#readme"
+  "homepage": "https://github.com/farhandardiri/evol#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.8.1"
+  }
 }
-
